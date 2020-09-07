@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Hobby from "../components/Hobby"
+import Status from "../components/Status"
 
 export default function Home() {
   return (
@@ -9,6 +11,8 @@ export default function Home() {
       <Header headerText="Hello Gatsby!" />
       <p>What a world.</p>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <Hobby number="3" />
+      <Status bt="o" />
     </div>
   )
 }
